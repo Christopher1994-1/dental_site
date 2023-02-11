@@ -1,0 +1,57 @@
+/* CSS code for the main second index section */
+.second-section {
+    padding: 20px;
+    background-color: rgb(214, 218, 223);
+}
+
+/* CSS code for the first block of stuff */
+.first-thing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* CSS code for the h1 header for the first block */
+.first-thing .first-thing-h1 {
+    width: 50%;
+}
+
+
+/* CSS code for the button for the first block */
+.first-thing .second-section-button button {
+    background-color: rgb(89, 157, 247);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    margin-right: 20px;
+    align-items: center;
+    border: none;
+    width: 250px;
+
+}
+.first-thing .second-section-button button:hover {
+    background-color: rgb(125, 178, 247);
+}
+
+
+
+
+
+
+.second-thing {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card {
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

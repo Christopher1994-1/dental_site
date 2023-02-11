@@ -1,0 +1,149 @@
+/* css code for the main container */
+.first-index-section {
+    display: flex;
+}
+
+
+.first-side {
+    width: 50%;
+    background-color: rgb(214, 218, 223);
+    padding: 10px;
+}
+
+.first-side h1 {
+    font-size: 80px;
+    margin-top: 80px;
+}
+
+
+#button-one {
+    background-color: rgb(89, 157, 247);
+    padding: 15px;
+    border-radius: 15px;
+    margin-right: 20px;
+    align-items: center;
+    border: none;
+    color: white;
+}
+#button-one:hover {
+    background-color: rgb(125, 178, 247);
+}
+
+#button-two {
+    background-color: rgb(214, 218, 223);
+    padding: 15px;
+    border-radius: 15px;
+    align-items: center;
+    border: solid  rgb(125, 178, 247);
+}
+#button-two:hover {
+    background-color: rgb(125, 178, 247);
+    color: white;
+
+}
+
+.second-side {
+    width: 50%;
+}
+
+.second-side img {
+    width: 100%;
+} 
+
+
+
+/* ##################################################################################################################
+##################################################################################################################
+################################################################################################################## */
+
+
+
+.buttom-things {
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    position: absolute;
+    top: 685;
+    right: 130;
+
+}
+
+
+.first-buttom {
+    background-color: rgb(38, 156, 127);
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.first-buttom:hover {
+    background-color: rgb(125, 178, 247);
+    transform: scale(1.02);
+}
+.img-h1 {
+    display: flex;
+    align-items: center;
+}
+.img-h1 h1 {
+    font-size: 27px;
+}
+.first-buttom a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.second-buttom {
+    background-color: rgb(202, 137, 39);
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.second-buttom:hover {
+    background-color: rgb(125, 178, 247);
+    transform: scale(1.02);
+}
+.img-h1 {
+    display: flex;
+    align-items: center;
+}
+.img-h1 h1 {
+    font-size: 27px;
+}
+.second-buttom a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.third-buttom {
+    background-color: rgb(22, 61, 112);
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.third-buttom:hover {
+    background-color: rgb(125, 178, 247);
+    transform: scale(1.02);
+}
+.img-h1 {
+    display: flex;
+    align-items: center;
+}
+.img-h1 h1 {
+    font-size: 27px;
+}
+.third-buttom a {
+    color: white;
+    text-decoration: none;
+}

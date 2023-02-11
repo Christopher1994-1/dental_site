@@ -1,0 +1,81 @@
+{% block navbar %}
+
+
+<link rel="stylesheet" href="/static/css/navbar.css">
+
+
+
+
+<div class="first-nav">
+
+    <div class="left-side">
+        <div class="phone-number">
+            <img src="/static/images/phone.png" alt="" width="20" height="20">
+            <h1>+1-702-000-0000</h1>
+        </div>
+
+        <div class="address">
+            <img src="/static/images/loc.png" alt="" width="20" height="20">
+            <h1>35 West Dental Street, California 1004</h1>
+        </div>
+
+        <div class="email">
+            <img src="/static/images/mail.png" alt="" width="20" height="20">
+            <a href="#"><h1>support@rola.com</h1></a>
+        </div>
+    </div>
+
+
+    <div class="right-side">
+        <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+    </div>
+
+
+</div>
+
+<div class="navbar-placeholder"></div>
+
+
+<div class="second-navbar">
+
+    <div class="company-name">
+        <a href="#"><h1>Rola</h1></a>
+    </div>
+
+    <div class="links">
+        <a href="#">Home</a>
+        <a href="#">Dentists</a>
+        <a href="#" id="dropdown">Services ↓</a>
+            <ul id="services-dropdown">
+                <li><a href="#">Teeth Cleaning</a></li>
+                <li><a href="#">Teeth Whitening</a></li>
+                <li><a href="#">Orthodontics</a></li>
+                <li><a href="#">Dental Implants</a></li>
+            </ul>
+        <a href="#" id="pages">Pages ↓</a>
+            <ul id="pages-dropdown">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Appointment</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Services</a></li>
+                <li><a href="#">Coming Soon</a></li>
+            </ul>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="button">
+        <button>Book Appointment</button>
+    </div>
+</div>
+
+
+
+<script src="/static/js/dropdown-second-nav.js"></script>
+
+{% endblock navbar %}

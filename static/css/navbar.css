@@ -1,0 +1,247 @@
+/* First navbar css code for container */
+.first-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(22, 61, 112);
+}
+/* Left side div container */
+.left-side {
+    display: flex;
+    width: 60%;
+}
+.phone-number {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: white;
+}
+.phone-number h1 {
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.address {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: white;
+}
+.address h1 {
+    margin-left: 3px;
+    margin-top: 4px;
+}
+.email {
+    display: flex;
+    align-items:center;
+    margin-right: 20px;
+    color: white;
+}
+.email h1 {
+    margin-left: 3px;
+    margin-top: 4px;
+}
+/* CSS code for the line left to right underline */
+.email a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.email a:hover {
+    color: rgb(46, 126, 231);
+}
+.email a:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgb(46, 126, 231);
+    transition: width 0.3s ease-in-out;
+}
+.email a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+.left-side h1 {
+    font-size: 15px;
+}
+
+
+
+
+
+
+.right-side {
+    margin-right: 15px;
+}
+
+.right-side a {
+    font-size: 25px;
+    margin-left: 20px;
+    color: white;
+}
+.right-side a:hover {
+    color: rgb(87, 160, 255);
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS code for the second navbar */
+.second-navbar {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.company-name {
+    margin-left: 20px;
+}
+
+.company-name a {
+    text-decoration: none;
+    color: rgb(89, 157, 247);
+}
+
+
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+
+.links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.links a:hover {
+    color: rgb(125, 178, 247);
+}
+
+
+/* dropdown menu for services */
+.links ul {
+    position: absolute;
+    width: 200px;
+    background: rgb(250, 248, 248);
+    list-style: none;
+    left: 515;
+    border-radius: 10px;
+    top: 99;
+    display: none;
+  }
+  
+  .links ul li {
+    position: relative;
+    right: 17px;
+    padding: 5px;
+  }
+  
+  #dropdown:hover + #services-dropdown, #services-dropdown:hover {
+    display: block;
+  }
+  
+  #services-dropdown {
+    display: none;
+  }
+  
+
+
+/* dropdown menu for pages */
+.links #pages-dropdown {
+    position: absolute;
+    width: 200px;
+    background: rgb(250, 248, 248);
+    list-style: none;
+    left: 655;
+    border-radius: 10px;
+    top: 99;
+    display: none;
+  }
+  
+  .links ul li {
+    position: relative;
+    right: 17px;
+    padding: 5px;
+  }
+
+  #pages:hover + #pages-dropdown, #pages-dropdown:hover {
+    display: block;
+  }
+  
+  #pages-dropdown {
+    display: none;
+  }
+
+
+
+
+
+
+.second-navbar button {
+    background-color: rgb(89, 157, 247);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    margin-right: 20px;
+    align-items: center;
+    border: none;
+}
+.second-navbar button:hover {
+    background-color: rgb(125, 178, 247);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
