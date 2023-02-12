@@ -82,6 +82,7 @@
     font-size: 25px;
     margin-left: 20px;
     color: white;
+    transition: color 0.3s ease-in-out;
 }
 .right-side a:hover {
     color: rgb(87, 160, 255);
@@ -115,6 +116,8 @@
 
 
 
+
+
 .links {
     display: flex;
     justify-content: space-around;
@@ -122,14 +125,31 @@
     width: 50%;
     text-align: center;
 }
-
-
 .links a {
-    font-size: 20px;
     text-decoration: none;
-    color: black;
-    display: block;
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 20px;
 }
+.links a:hover {
+    color: rgb(46, 126, 231);
+}
+.links a:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    background-color: rgb(125, 178, 247);
+    transition: width 0.3s ease-in-out;
+}
+.links a:hover:after {
+    width: 100%;
+    left: 0;
+  }
 .links a:hover {
     color: rgb(125, 178, 247);
 }
@@ -202,6 +222,7 @@
     margin-right: 20px;
     align-items: center;
     border: none;
+    transition: background-color 0.3s ease-in-out;
 }
 .second-navbar button:hover {
     background-color: rgb(125, 178, 247);

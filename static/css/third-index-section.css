@@ -1,0 +1,62 @@
+/* CSS code for the third index section container */
+.third-section-container {
+    display: flex;
+    align-items: center;
+    height: 70%;
+}
+
+
+/* CSS code for the left side container */
+.first-side-third {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(89, 157, 247, 0.432);
+}
+.stuff {
+    padding: 20px;
+    margin-top: 110px;
+}
+
+/* CSS code for the right side container aka parent*/
+.second-side {
+    width: 50%;
+}
+
+/* CSS code for the two top section things child1 */
+.top-section {
+    display: flex;
+    margin-bottom: 130px;
+    width: 80%;
+    margin: auto;
+}
+
+/* CSS code for the percentage section  child2 */
+.percentage {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.p1 h1 {
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+
+/* CSS code for the button for the first block */
+.first-side-third .stuff button {
+    background-color: rgb(89, 157, 247);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    margin-right: 20px;
+    align-items: center;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+
+}
+.first-side-third .stuff button:hover {
+    background-color: rgb(125, 178, 247);
+}

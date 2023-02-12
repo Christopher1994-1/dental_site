@@ -6,7 +6,7 @@
 
 .first-side {
     width: 50%;
-    background-color: rgb(214, 218, 223);
+    background-color: rgba(169, 189, 214, 0.219);
     padding: 10px;
 }
 
@@ -24,6 +24,7 @@
     align-items: center;
     border: none;
     color: white;
+    transition: background-color 0.3s ease-in-out;
 }
 #button-one:hover {
     background-color: rgb(125, 178, 247);
@@ -35,6 +36,8 @@
     border-radius: 15px;
     align-items: center;
     border: solid  rgb(125, 178, 247);
+    transition: background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 #button-two:hover {
     background-color: rgb(125, 178, 247);
@@ -67,8 +70,6 @@
     right: 130;
 
 }
-
-
 .first-buttom {
     background-color: rgb(38, 156, 127);
     margin-right: 10px;

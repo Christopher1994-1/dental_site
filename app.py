@@ -10,6 +10,10 @@ def index():
     return render_template('index.html')
 
 
+# main page for test
+@app.route('/test.html')
+def test():
+    return render_template('test.html')
 
 
 

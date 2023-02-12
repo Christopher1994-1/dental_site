@@ -1,0 +1,61 @@
+/* CSS code for the main container for fourth-section-container */
+.fourth-section-container {
+    background-color: rgba(191, 205, 223, 0.151);
+}
+
+
+/* CSS for the header h1 */
+.fourth-section-container h1 {
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+/* CSS code for the bottom cards container  */
+.fourth-stuff {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+
+
+
+/* CSS code for the thing1 container for first card */
+.thing1 {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.342);
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.thing1:hover {
+    transform: scale(1.02);
+}
+
+/* CSS code for the txt-img containter for the image and header text */
+.txt-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.txt-img img {
+    position: relative;
+    border-radius: 100px;
+    background-color: rgb(89, 157, 247);;
+    left: 30;
+}
+.txt-img h1 {
+    font-size: 20px;
+    position: relative;
+    bottom: 30;
+    left: 10;
+}

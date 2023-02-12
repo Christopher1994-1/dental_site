@@ -1,0 +1,106 @@
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(191, 205, 223, 0.151);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .review-page {
+    display: none;
+  }
+  
+  #review-page-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  #review-page-2 {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+  }
+  
+  .review {
+    width: 45%;
+    height: 200px;
+    background-color: #8fa5ec38;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .page-indicator {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .page-indicator-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .page-indicator-circle:hover {
+    transform: scale(1.2);
+  }
+  
+  #page-indicator-1 {
+    background-color: #333;
+  }
+  
+  #page-indicator-1:hover {
+    background-color: #333 !important;
+  }
+  
+
+
+.header-button {
+    display: flex;
+    width: 80%;
+}
+
+.header-button .header-div {
+    width: 70%;
+}
+
+.header-button .button-div {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.header-button .button-div button {
+    margin-right: 15px;
+    background-color: rgb(89, 157, 247);
+    padding: 15px;
+    border-radius: 15px;
+    margin-right: 20px;
+    align-items: center;
+    width: 60%;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+.header-button .button-div button:hover {
+    background-color: rgb(125, 178, 247);
+}
