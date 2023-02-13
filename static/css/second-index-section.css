@@ -57,3 +57,197 @@
 .card:hover {
     transform: scale(1.05);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:989px) {
+    /* h1 header */
+    .first-thing-h1 h1 {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    /* button */
+    .second-section-button {
+        padding: 15px;
+        width: 250px;
+    }
+
+    /* image itself */
+    .second-thing img {
+        height: 260;
+    }
+}
+
+@media(max-width:915px) {
+    /* h1 header */
+    .first-thing-h1 h1 {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    /* button */
+    .second-section-button {
+        padding: 15px;
+        width: 250px;
+    }
+
+    /* image itself */
+    .second-thing img {
+        height: 240;
+    }
+
+    /* card title itself */
+    .card h5 {
+        font-size: 15px;
+    }
+
+    /* card paragraph itself */
+    .card p {
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media(max-width:830px) {
+    /* h1 header */
+    .first-thing-h1 h1 {
+        width: 90%;
+        font-size: 22px;
+    }
+
+    /* button */
+    .second-section-button {
+        padding: 15px;
+        width: 220px;
+    }
+
+    /* image itself */
+    .second-thing img {
+        height: 210;
+    }
+
+    /* card title itself */
+    .card h5 {
+        font-size: 13px;
+    }
+
+    /* card paragraph itself */
+    .card p {
+        font-size: 13px;
+    }
+}
+
+
+
+
+@media(max-width:762px) {
+    /* h1 header */
+    .first-thing-h1 h1 {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    /* button */
+    .second-section-button button{
+        width: 130px;
+        padding: 5px;
+    }
+
+    /* image itself */
+    .second-thing img {
+        height: 180;
+    }
+
+    /* card title itself */
+    .card h5 {
+        font-size: 13px;
+    }
+
+    /* card paragraph itself */
+    .card p {
+        font-size: 11px;
+    }
+}
+
+
+
+@media(max-width:688px) {
+    /* h1 header */
+    .first-thing-h1 h1 {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    /* button */
+    .second-section-button button{
+        width: 80px;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    /* image itself */
+    .second-thing img {
+        height: 140;
+    }
+
+    /* card title itself */
+    .card h5 {
+        font-size: 13px;
+    }
+
+    /* card paragraph itself */
+    .card p {
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+
+@media(max-width:582px) {
+    /* h1 header */
+    .first-thing-h1 h1 {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    /* button */
+    .second-section-button button{
+        width: 80px;
+        padding: 0;
+    }
+
+    /* image itself */
+    .second-thing img {
+        height: 110;
+    }
+
+    /* card title itself */
+    .card h5 {
+        font-size: 9px;
+    }
+
+    /* card paragraph itself */
+    .card p {
+        font-size: 9px;
+    }
+
+    .card a {
+        padding: 0;
+    }
+}

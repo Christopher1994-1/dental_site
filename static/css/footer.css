@@ -1,0 +1,193 @@
+/* CSS CODE FOR THE MAIN FOOTER CONTAINER */
+.main_footer {
+    border: 2px solid black;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/987/748/original/abstract-template-blue-geometric-diagonal-overlap-layer-on-dark-blue-background-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+
+.main_footer hr {
+    color: white;
+}
+
+/* CSS CODE FOR THE CONTAINER FOR THE LINKS */
+.footer-flex {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* CSS CODE FOR ROLA SIDE */
+.footer-one {
+    margin-right: 20px;
+    padding: 15px;
+    text-align: left;
+}
+.footer-one h3 {
+    color: rgba(89, 157, 247, 0.432);
+}
+.footer-one p {
+    color: white;
+}
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    transition: width 0.5s ease-in-out;
+  }
+  .social-icon:hover {
+    background-color: #ffffffa6;
+
+  }
+
+  .social-icon .fa {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.459);
+    font-weight: bold;
+  }
+
+
+
+
+
+
+/* CSS CODE FOR THE USEFUL LINKS */
+.footer-two {
+    margin-right: 20px;
+    padding: 15px;
+}
+.footer-two-links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-two h3 {
+    color: rgba(89, 157, 247, 0.432);
+}
+
+.footer-two a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+/* CSS CODE FOR OUR SERVICES  */
+.footer-three {
+    margin-right: 20px;
+    padding: 15px;
+}
+.footer-three-links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-three h3 {
+    color: rgba(89, 157, 247, 0.432);
+}
+.footer-three a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+/* CSS CODE FOR SUPPORT  */
+.footer-four {
+    margin-right: 20px;
+    padding: 15px;
+}
+.footer-four-links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-four h3 {
+    color: rgba(89, 157, 247, 0.432);
+}
+.footer-four a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* CSS CODE FOR NEWSLETTER */
+.final-footer {
+    margin-right: 20px;
+    padding: 15px;
+    width: 30%;
+    text-align: left;
+}
+.final-footer h3 {
+    color: rgba(89, 157, 247, 0.432);
+}
+.final-footer p {
+    width: 75%;
+    color: white;
+}
+.email-submit {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 20px auto;
+  }
+
+  .email-submit input[type="email"] {
+    flex: 1;
+    height: 80%;
+    height: 140%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+
+  .email-submit i {
+    color: #000000;
+    font-size: 60px;
+    padding-right: 10px;
+    position: relative;
+    right: 64;
+    cursor: pointer;
+    bottom: 1;
+  }
+  .email-submit i:hover {
+    color: #1824697e;
+  }
+
+
+
+
+
+
+
+/* CSS CODE FOR THE BOTTOM OF THE FOOTER */
+#copyright {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+#copyright a {
+    text-decoration: none;
+}

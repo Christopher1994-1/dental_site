@@ -1,13 +1,15 @@
 from flask import Flask, render_template
+import datetime
 
 app = Flask(__name__)
 
-
+year = datetime.datetime.now().year
 
 # main home page index
 @app.route('/')
 def index():
-    return render_template('index.html')
+    year1 = year
+    return render_template('index.html', year=year1)
 
 
 # main page for test
