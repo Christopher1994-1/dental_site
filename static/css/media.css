@@ -93,7 +93,7 @@
 
 
 
-input {
+.nav input {
   display: none;
 }
 
@@ -138,17 +138,7 @@ input {
   
 }
 
-/* 
-@media(max-width:766px) {
-  .nav ul {
-    top: 24%;
-  } 
 
-  .nav ul ul li {
-    width: 250%;
-  }
-}
- */
 
 
 

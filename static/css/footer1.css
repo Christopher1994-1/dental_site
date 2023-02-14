@@ -11,6 +11,12 @@
     justify-content: center;
 }
 
+
+
+
+
+
+
 /* CSS CODE FOR ROLA SIDE */
 .footer-one {
     margin-right: 20px;
@@ -45,6 +51,17 @@
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* CSS CODE FOR THE USEFUL LINKS */
 .footer-two {
     margin-right: 20px;
@@ -61,8 +78,44 @@
 .footer-two a {
     text-decoration: none;
     color: white;
+    position: relative;
+    display: inline-block;
     margin-bottom: 10px;
+    overflow: hidden;
 }
+.footer-two a:hover {
+    color: rgb(46, 126, 231);
+    text-decoration: none;
+}
+.footer-two a:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgb(46, 126, 231);
+    transition: width 0.3s ease-in-out;
+}
+.footer-two a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* CSS CODE FOR OUR SERVICES  */
@@ -80,8 +133,41 @@
 .footer-three a {
     text-decoration: none;
     color: white;
+    position: relative;
+    display: inline-block;
     margin-bottom: 10px;
+    overflow: hidden;
 }
+.footer-three a:hover {
+    color: rgb(46, 126, 231);
+    text-decoration: none;
+}
+.footer-three a:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgb(46, 126, 231);
+    transition: width 0.3s ease-in-out;
+}
+.footer-three a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* CSS CODE FOR SUPPORT  */
 .footer-four {
@@ -98,8 +184,38 @@
 .footer-four a {
     text-decoration: none;
     color: white;
+    position: relative;
+    display: inline-block;
     margin-bottom: 10px;
+    overflow: hidden;
 }
+.footer-four a:hover {
+    color: rgb(46, 126, 231);
+    text-decoration: none;
+}
+.footer-four a:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgb(46, 126, 231);
+    transition: width 0.3s ease-in-out;
+}
+.footer-four a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
+
+
+
+
+
+
+
+
 
 
 /* CSS CODE FOR NEWSLETTER */
@@ -155,32 +271,37 @@
     color: white;
 }
 
+
 #copyright a {
     text-decoration: none;
+    color: rgb(77, 121, 216);
+    position: relative;
+    top: 3px;
+    left: 3px;
+    display: inline-block;
+    overflow: hidden;
 }
-
-
-
-
-
-
-/* ======================================================================================================== */
-
-/* Second footer code */
-
-.main_footer2 {
-    display: none;
-    border: 2px solid black;
-    padding: 20px;
+#copyright a:hover {
+    color: rgb(46, 126, 231);
+    text-decoration: none;
 }
-
-/* CSS CODE FOR THE CONTAINER FOR THE LINKS */
-.footer-flex2 {
-    display: flex;
-    padding: 30px;
-    text-align: center;
-    justify-content: center;
+#copyright a:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgb(46, 126, 231);
+    transition: width 0.3s ease-in-out;
 }
+#copyright a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
+
+
 
 
 
@@ -213,7 +334,6 @@
     /* CSS CODE FOR THE MAIN FOOTER CONTAINER */
 .main_footer {
     padding: 10px;
-    border: 1px solid green;
 }
 
 /* CSS CODE FOR THE CONTAINER FOR THE LINKS */
@@ -223,7 +343,6 @@
     width: 100%;
     text-align: center;
     justify-content: center;
-    border: 1px solid blueviolet;
 }
 
 /* CSS CODE FOR ROLA SIDE */
@@ -231,7 +350,6 @@
     margin-right: 20px;
     padding: 15px;
     text-align: left;
-    border: 1px solid red;
 }
 .footer-one h3 {
     color: rgba(89, 157, 247, 0.432);
@@ -265,7 +383,6 @@
 .footer-two {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-two-links {
     display: flex;
@@ -287,7 +404,6 @@
 .footer-three {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-three-links {
     display: flex;
@@ -306,7 +422,6 @@
 .footer-four {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-four-links {
     display: flex;
@@ -328,7 +443,6 @@
     padding: 15px;
     width: 30%;
     text-align: left;
-    border: 1px solid red;
 }
 .final-footer h3 {
     color: rgba(89, 157, 247, 0.432);
@@ -396,7 +510,6 @@
     /* CSS CODE FOR THE MAIN FOOTER CONTAINER */
 .main_footer {
     padding: 0px;
-    border: 1px solid green;
 }
 
 /* CSS CODE FOR THE CONTAINER FOR THE LINKS */
@@ -406,7 +519,6 @@
     width: 100%;
     text-align: center;
     justify-content: center;
-    border: 1px solid blueviolet;
 }
 
 /* CSS CODE FOR ROLA SIDE */
@@ -414,7 +526,6 @@
     margin-right: 20px;
     padding: 15px;
     text-align: left;
-    border: 1px solid red;
 }
 .footer-one h3 {
     color: rgba(89, 157, 247, 0.432);
@@ -448,7 +559,6 @@
 .footer-two {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-two-links {
     display: flex;
@@ -470,7 +580,6 @@
 .footer-three {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-three-links {
     display: flex;
@@ -489,7 +598,6 @@
 .footer-four {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-four-links {
     display: flex;
@@ -511,7 +619,6 @@
     padding: 15px;
     width: 30%;
     text-align: left;
-    border: 1px solid red;
 }
 .final-footer h3 {
     color: rgba(89, 157, 247, 0.432);
@@ -591,7 +698,6 @@
     /* CSS CODE FOR THE MAIN FOOTER CONTAINER */
 .main_footer {
     padding: 0px;
-    border: 1px solid green;
 }
 
 /* CSS CODE FOR THE CONTAINER FOR THE LINKS */
@@ -601,7 +707,6 @@
     width: 100%;
     text-align: center;
     justify-content: center;
-    border: 1px solid blueviolet;
 }
 
 /* CSS CODE FOR ROLA SIDE */
@@ -609,7 +714,6 @@
     margin-right: 20px;
     padding: 15px;
     text-align: left;
-    border: 1px solid red;
 }
 .footer-one h3 {
     color: rgba(89, 157, 247, 0.432);
@@ -643,7 +747,6 @@
 .footer-two {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-two-links {
     display: flex;
@@ -665,7 +768,6 @@
 .footer-three {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-three-links {
     display: flex;
@@ -684,7 +786,6 @@
 .footer-four {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-four-links {
     display: flex;
@@ -706,7 +807,6 @@
     padding: 15px;
     width: 30%;
     text-align: left;
-    border: 1px solid red;
 }
 .final-footer h3 {
     color: rgba(89, 157, 247, 0.432);
@@ -792,7 +892,6 @@
     /* CSS CODE FOR THE MAIN FOOTER CONTAINER */
 .main_footer {
     padding: 0px;
-    border: 1px solid green;
 }
 
 /* CSS CODE FOR THE CONTAINER FOR THE LINKS */
@@ -802,7 +901,6 @@
     width: 100%;
     text-align: center;
     justify-content: center;
-    border: 1px solid blueviolet;
 }
 
 /* CSS CODE FOR ROLA SIDE */
@@ -810,7 +908,6 @@
     margin-right: 20px;
     padding: 15px;
     text-align: left;
-    border: 1px solid red;
 }
 .footer-one h3 {
     color: rgba(89, 157, 247, 0.432);
@@ -844,7 +941,6 @@
 .footer-two {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-two-links {
     display: flex;
@@ -866,7 +962,6 @@
 .footer-three {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-three-links {
     display: flex;
@@ -885,7 +980,6 @@
 .footer-four {
     margin-right: 20px;
     padding: 15px;
-    border: 1px solid red;
 }
 .footer-four-links {
     display: flex;
@@ -907,7 +1001,6 @@
     padding: 15px;
     width: 25%;
     text-align: left;
-    border: 1px solid red;
 }
 .final-footer h3 {
     color: rgba(89, 157, 247, 0.432);

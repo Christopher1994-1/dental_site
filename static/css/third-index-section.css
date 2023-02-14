@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     height: 70%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -59,4 +60,379 @@
 }
 .first-side-third .stuff button:hover {
     background-color: rgb(125, 178, 247);
+}
+
+
+
+
+/* CSS CODE SCREEN SIZE OF 857 PIXELS */
+@media(max-width:857px) {
+
+    .first-side-third {
+        height: 80%;
+    }
+
+    /* for left side container */
+    .stuff {
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    /* for the left size h1 header */
+    .stuff h1 {
+        font-size: 25px;
+
+    }
+
+    /* for the left side paragraph  */
+    .stuff p {
+        font-size: 15px;
+
+    }
+
+
+    /* for the left side button  */
+    .stuff button {
+        padding: 14px;
+
+    }
+
+
+    /* =========================== */
+
+    /* for the right side container  */
+    /* .top-section {
+
+    } */
+
+
+    /* for the right side top-section h1 */
+    .top-section .first h4 {
+        font-size: 15px;
+
+    }
+
+    /* for the right side top-section p */
+    .top-section .first p {
+        font-size: 15px;
+
+    }
+
+    /* for the right side buttom-section h1 */
+    .percentage .p1 h1 {
+        font-size: 15px;
+
+    }
+}
+
+
+
+
+
+
+/* CSS CODE SCREEN SIZE OF 781 PIXELS */
+@media(max-width:781px) {
+
+    .third-section-container {
+        height: 50%;
+    }
+
+    .first-side-third {
+        height: 90%;
+    }
+
+    /* for left side container */
+    .stuff {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    /* for the left size h1 header */
+    .stuff h1 {
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    /* for the left side paragraph  */
+    .stuff p {
+        font-size: 13px;
+
+    }
+
+
+    /* for the left side button  */
+    .stuff button {
+        padding: 14px;
+
+    }
+
+
+    /* =========================== */
+
+    /* for the right side container  */
+    /* .top-section {
+
+    } */
+
+
+    .top-section .first {
+        margin-right: 20px;
+    }
+
+
+    /* for the right side top-section h1 */
+    .top-section .first h4 {
+        font-size: 15px;
+
+    }
+
+    /* for the right side top-section p */
+    .top-section .first p {
+        font-size: 12px;
+
+    }
+
+    /* for the right side buttom-section h1 */
+    .percentage .p1 h1 {
+        font-size: 15px;
+
+    }
+}
+
+
+
+
+
+
+/* CSS CODE SCREEN SIZE OF 711 PIXELS */
+@media(max-width:711px) {
+
+    .third-section-container {
+        height: 50%;
+    }
+
+    .first-side-third {
+        height: 90%;
+    }
+
+    /* for left side container */
+    .stuff {
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    /* for the left size h1 header */
+    .stuff h1 {
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    /* for the left side paragraph  */
+    .stuff p {
+        font-size: 12px;
+
+    }
+
+
+    /* for the left side button  */
+    .stuff button {
+        padding: 11px;
+
+    }
+
+
+    /* =========================== */
+
+    /* for the right side container  */
+    /* .top-section {
+
+    } */
+
+
+    .top-section .first {
+        margin-right: 20px;
+    }
+
+
+    /* for the right side top-section h1 */
+    .top-section .first h4 {
+        font-size: 15px;
+
+    }
+
+    /* for the right side top-section p */
+    .top-section .first p {
+        font-size: 12px;
+
+    }
+
+    /* for the right side buttom-section h1 */
+    .percentage .p1 h1 {
+        font-size: 15px;
+
+    }
+}
+
+
+
+
+
+/* CSS CODE SCREEN SIZE OF 589 PIXELS */
+@media(max-width:589px) {
+
+    .third-section-container {
+        height: 50%;
+    }
+
+    .first-side-third {
+        height: 90%;
+    }
+
+    /* for left side container */
+    .stuff {
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    /* for the left size h1 header */
+    .stuff h1 {
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    /* for the left side paragraph  */
+    .stuff p {
+        font-size: 12px;
+
+    }
+
+
+    /* for the left side button  */
+    .stuff button {
+        padding: 11px;
+
+    }
+
+
+    /* =========================== */
+
+    /* for the right side container  */
+    /* .top-section {
+
+    } */
+
+
+    .top-section .first {
+        margin-right: 20px;
+    }
+
+
+    /* for the right side top-section h1 */
+    .top-section .first h4 {
+        font-size: 15px;
+
+    }
+
+    /* for the right side top-section p */
+    .top-section .first p {
+        font-size: 12px;
+
+    }
+
+    /* for the right side buttom-section h1 */
+    .percentage .p1 h1 {
+        font-size: 15px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CSS CODE SCREEN SIZE OF 554 PIXELS */
+@media(max-width:554px) {
+
+    .third-section-container {
+        height: 50%;
+        align-items: center;
+    }
+
+    .first-side-third {
+        height: 90%;
+    }
+
+    /* for left side container */
+    .stuff {
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    /* for the left size h1 header */
+    .stuff h1 {
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    /* for the left side paragraph  */
+    .stuff p {
+        font-size: 12px;
+
+    }
+
+
+    /* for the left side button  */
+    .stuff button {
+        padding: 9px;
+
+    }
+
+
+    /* =========================== */
+
+    /* for the right side container  */
+    .top-section {
+        width: 80%;
+
+    }
+
+
+    .top-section .first {
+        margin-right: 20px;
+    }
+
+
+    /* for the right side top-section h1 */
+    .top-section .first h4 {
+        font-size: 13px;
+
+    }
+
+    /* for the right side top-section p */
+    .top-section .first p {
+        font-size: 11px;
+        width: 10%;
+        border: 2px solid black;
+
+    }
+
+
+    .percentage {
+        width: 80%;
+    }
+    /* for the right side buttom-section h1 */
+    .percentage .p1 h1 {
+        font-size: 15px;
+
+    }
 }

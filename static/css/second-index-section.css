@@ -29,7 +29,6 @@
     border: none;
     width: 250px;
     transition: background-color 0.3s ease-in-out;
-
 }
 .first-thing .second-section-button button:hover {
     background-color: rgb(125, 178, 247);
@@ -121,17 +120,23 @@
 
 
 
-@media(max-width:830px) {
+@media(max-width:829px) {
     /* h1 header */
     .first-thing-h1 h1 {
         width: 90%;
         font-size: 22px;
     }
 
-    /* button */
-    .second-section-button {
-        padding: 15px;
-        width: 220px;
+    .first-thing .second-section-button button {
+        background-color: rgb(89, 157, 247);
+        padding: 13px;
+        border-radius: 15px;
+        color: white;
+        margin-right: 20px;
+        align-items: center;
+        border: none;
+        width: 230px;
+        transition: background-color 0.3s ease-in-out;
     }
 
     /* image itself */
@@ -249,5 +254,60 @@
 
     .card a {
         padding: 0;
+    }
+}
+
+
+
+@media(max-width:829px) {
+    /* h1 header */
+    .first-thing-h1 h1 {
+        width: 90%;
+        font-size: 22px;
+    }
+
+    .first-thing .second-section-button button {
+        background-color: rgb(89, 157, 247);
+        padding: 13px;
+        border-radius: 15px;
+        color: white;
+        margin-right: 20px;
+        align-items: center;
+        border: none;
+        width: 210px;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .second-thing {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* image itself */
+    .second-thing img {
+        height: 170;
+    }
+
+    /* card title itself */
+    .card h5 {
+        font-size: 13px;
+    }
+
+    /* card paragraph itself */
+    .card p {
+        font-size: 13px;
+    }
+
+
+    .card {
+        margin-right: 0px;
+        margin-top: 0px;
+        cursor: pointer;
+        transition: transform 0.3s;
+        margin-bottom: 60px;
+    }
+
+    .second-section {
+        width: 100%;
     }
 }

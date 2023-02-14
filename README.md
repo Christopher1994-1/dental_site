@@ -7,11 +7,19 @@ With a focus on user experience, my dental website offers a convenient and acces
 
 
 
-Home Page | top of Page
+Home Page 
 ![Example Image](/static/images/page1.png)
-Home Page | Scro
+Home Page 
 ![Example Image](/static/images/page2.png)
-Home Page / Showing monthly results
+Home Page 
 ![Example Image](/static/images/page3.png)
-Home Page / Showing statisics about the dataset
+Home Page 
 ![Example Image](/static/images/page4.png)
+Home Page 
+![Example Image](/static/images/page5.png)
+Home Page 
+![Example Image](/static/images/page6.png)
+Home Page 
+![Example Image](/static/images/page7.png)
+Home Page 
+![Example Image](/static/images/page7.png)
